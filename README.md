@@ -16,6 +16,11 @@ $ npm start
 $ npm run build
 ```
 
+## Deploy (gh pages)
+```
+$ npm run deploy
+```
+
 ## Docs
 ```
 $ npm run docs
