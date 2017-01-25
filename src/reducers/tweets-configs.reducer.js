@@ -3,19 +3,19 @@ import { TWEETS_CONFIG_UPDATE } from 'actions/types/tweets.types';
 const configsStore = localStorage.getItem('tweetsConfigs') && JSON.parse(localStorage.getItem('tweetsConfigs'));
 const initialState = configsStore || [
   {
-    handle: 'appDirect',
+    handle: 'addyosmani',
     count: '30',
     order: 1,
     id: 1,
   },
   {
-    handle: 'laughingsquid',
+    handle: 'slicknet',
     count: '30',
     order: 2,
     id: 2,
   },
   {
-    handle: 'techcrunch',
+    handle: 'paul_irish',
     count: '30',
     order: 3,
     id: 3,
